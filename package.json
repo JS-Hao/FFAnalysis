@@ -1,0 +1,21 @@
+{
+  "name": "FFAnalysis",
+  "version": "0.0.1",
+  "description": "闲鱼数据分析小助手，定期抓取商品信息，分析价格走势",
+  "main": "node/server.js",
+  "scripts": {
+    "start": "supervisor --inspect node/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JS-Hao/FFAnalysis.git"
+  },
+  "author": "JS-Hao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JS-Hao/FFAnalysis/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
